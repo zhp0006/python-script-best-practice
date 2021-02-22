@@ -108,6 +108,16 @@ We get a message that we need to provide an integer to factor, so let's try:
 OK, the script seems to work, but it isn't all that it could be.
 Let's modify the code in `smallest_factor.py` and make it better.
 
+**Before proceeding**, read through the code in the `smallest_factor.py` script
+and try your best to understand what it is doing.
+Feel free to tinker with the code and add `print()` statements and re-run the
+script to test your hypotheses about what the code is doing.
+
+When you are done tinkering, you can use `git` to undo all your changes
+before proceeding:
+
+    $ git checkout -- smallest_factor.py
+
 
 # Best practice 1: Put code into functions
 
@@ -171,7 +181,7 @@ Let's make sure the script still works:
 Are you getting errors? Try to fix the bugs in your code.
 The error messages that Python reports take some getting use to,
 but they are very helpful and informative, so read them carefully
-and try to figure out what is wrong.
+and try to figure out what is going wrong.
 
 
 # Best practice 2: Write modules not scripts
