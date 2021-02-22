@@ -131,6 +131,8 @@ def get_smallest_prime_factor(n):
     return None
 ```
 
+Functions should be defined after we import modules and before other code, so
+put the new function after the line where we import the `sys` module.
 Now, our script looks like:
 
 ```python
