@@ -121,6 +121,10 @@ before proceeding:
 
 # Best practice 1: Put code into functions
 
+It is always good practice to put each block of code that performs
+a particular task into a function.
+This will help compartmentalize your code into reusable units.
+
 Let's take this code:
 
 ```python
@@ -351,6 +355,8 @@ Much better.
 
 We can even add examples to docstrings that can be run
 as tests!!
+Let's add a section to our docstring for the `get_smallest_prime_factor`
+function with some examples of how its used and the numbers it should return:
 
 ```python
 def get_smallest_prime_factor(n):
